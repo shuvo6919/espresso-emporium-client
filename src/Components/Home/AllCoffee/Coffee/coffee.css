@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
+.coffee-container {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f4f1;
+  border-radius: 10px;
+  padding: 10px;
+
+  img {
+    width: 150px;
+  }
+  p {
+    font-size: small;
+  }
+
+  .control-coffee {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .details {
+      background: #d2b48c;
+      color: white;
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .edit {
+      background: #3c393b;
+      color: white;
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .delete {
+      background: #ea4744;
+      color: white;
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+}

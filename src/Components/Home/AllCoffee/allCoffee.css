@@ -1,0 +1,29 @@
+.all-coffee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 30px auto;
+  max-width: 1000px;
+
+  h1 {
+    color: #331a15;
+    font-weight: 500;
+    text-shadow: 0 2px 5px #331a15;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .all-coffee {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+
+    @media only screen and (max-width: 767px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
